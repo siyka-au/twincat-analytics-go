@@ -1,0 +1,22 @@
+# Local environment config — never commit credentials
+.env
+
+# Go build outputs
+*.exe
+*.test
+*.out
+/bin/
+
+# IDE / editor
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Captured test data binaries and fixtures are intentionally committed.
+# If you want to exclude large captures, add patterns here, e.g.:
+# testdata/*.bin

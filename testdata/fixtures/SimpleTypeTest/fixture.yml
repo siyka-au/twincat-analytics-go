@@ -1,0 +1,7 @@
+twincat_project_url: https://github.com/siyka-au/twincat-analytics-test-projects/tree/master/SimpleTypeTest
+streams:
+  - base_topic: Devices/SimpleTypeTest/CyclicStream_1
+    sentinel: SimpleTypeTest.var_bool
+capture_defaults:
+  data_count: 1
+  data_timeout: 60s

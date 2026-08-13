@@ -1,0 +1,7 @@
+twincat_project_url: https://github.com/siyka-au/twincat-analytics-test-projects/tree/master/CompressedStreamTest
+streams:
+  - base_topic: Devices/CompressedStreamTest/CyclicStream_1
+    sentinel: CompressedStreamTest.nMaster
+capture_defaults:
+  data_count: 100
+  data_timeout: 120s
